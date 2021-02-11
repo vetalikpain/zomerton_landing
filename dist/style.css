@@ -210,4 +210,28 @@ header {
 
 .our-benefits a {
   text-decoration: none; }
+
+footer {
+  padding: 20px 0;
+  background-color: #000000; }
+  footer .footer_menu {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 40px auto;
+    color: #fff; }
+    footer .footer_menu ul {
+      list-style: none;
+      cursor: pointer; }
+      footer .footer_menu ul h4 {
+        margin-bottom: 20px; }
+      footer .footer_menu ul li {
+        font-size: .9em;
+        line-height: 2em; }
+  footer .footer-text {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    color: #fff; }
 /*# sourceMappingURL=style.css.map */
